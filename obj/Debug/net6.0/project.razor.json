@@ -16298,8 +16298,28 @@
   "RootNamespace": "RazorPizzeria",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\laura.white\\OneDrive - CHROMALOX\\Desktop\\razor-pages-example\\RazorPizzeria\\Pages\\Forms\\CustomPizza.cshtml",
+      "TargetPath": "Pages\\Forms\\CustomPizza.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\laura.white\\OneDrive - CHROMALOX\\Desktop\\razor-pages-example\\RazorPizzeria\\Pages\\Checkout\\Checkout.cshtml",
+      "TargetPath": "Pages\\Checkout\\Checkout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\laura.white\\OneDrive - CHROMALOX\\Desktop\\razor-pages-example\\RazorPizzeria\\Pages\\Checkout\\ThankYou.cshtml",
+      "TargetPath": "Pages\\Checkout\\ThankYou.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\laura.white\\OneDrive - CHROMALOX\\Desktop\\razor-pages-example\\RazorPizzeria\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\laura.white\\OneDrive - CHROMALOX\\Desktop\\razor-pages-example\\RazorPizzeria\\Pages\\Pizza.cshtml",
+      "TargetPath": "Pages\\Pizza.cshtml",
       "FileKind": "mvc"
     },
     {
