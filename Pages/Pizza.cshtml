@@ -5,5 +5,26 @@
 }
 <h1>@ViewData["Title"]</h1>
 
-<a class="nav-link text-dark" asp-area="" asp-page="Forms/CustomPizza">Custom Pizzas</a>
-<a class="nav-link text-dark" asp-area="" asp-page="Checkout/Checkout">Checkout</a>
+<div class="text-center">
+    <div class="mainText">
+        <h1 class="display-4 capitalize-text text-black">Enjoy our great selection of @ViewData["Title"]</h1>
+        <h2>Choose one or try our pizza builder</h2>
+        <p class="smallText"><em>Only one pizza per order.</em></p>
+    </div>
+    <div class="container">
+        <div class="col-12 mb-5 mt-5">
+            <div class="w-100 row makeYourOwnDiv">
+                <div class="col-4">
+                    <img src="~/images/Pizzas/Create.png" class="w-100" />
+                </div>
+                <div class="col-8 alig-items-center">
+                    <div class="align-middle makeYourOwnText">
+                        <h3 style="text-align:left;">Create your own Pizza</h3>
+                        <p style="text-align:left;">Make your own Pizza with our PizzaMaker!</p>
+                        <a class="btn btn-primary" style="float:left;" asp-area="" asp-page="/Forms/CustomPizza">Try Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
