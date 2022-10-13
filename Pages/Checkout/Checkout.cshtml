@@ -5,6 +5,15 @@
 }
 
 <h1>@ViewData["Title"]</h1>
-<a class="nav-link text-dark" asp-area="" asp-page="Checkout/ThankYou">Thank You</a>
-<p>Your pizza will be readh soon!</p>
+<div class="align-content-center">
+    <div class="col-3 mx-auto mb-5">
+        <h2>Your Order</h2>
+        <img class="w-100" asp-append-version="true" />
+        <p>Your pizza order is ready!</p>
+        <p>The total price for your order is:
+        <br />
+        <a class="btn alert-primary mt-1 mx-auto" asp-area="" asp-page="ThankYouPage">Confirm Order</a>    
+        </p>
+    </div>
+</div>
 
